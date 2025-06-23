@@ -1,7 +1,6 @@
 public final class Slime extends Character{
     public Slime(String name, int hp){
-        this.name = name;
-        this.hp = hp;
+        super(name,hp);
     }
     @Override
     public void attack(Character target) {
