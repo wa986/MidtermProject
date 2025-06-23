@@ -17,10 +17,10 @@ public class GameMaster {
         abel.attack(slime);
 
         System.out.println("--- 戦闘終了 ---");
-        System.out.println("最終ステータス:");
+        System.out.println("最終ステータス：");
         abel.showStatus();
         slime.showStatus();
-        System.out.println(abel.name + "は生きている: " + abel.isAlive() + "\n" + slime.name + "は生きている: " + slime.isAlive());
+        System.out.println(abel.name + "は生きている： " + abel.isAlive() + "\n" + slime.name + "は生きている： " + slime.isAlive());
         System.out.println("--- 参照の確認 ---");
         Character partyMember = abel;
         partyMember.hp -= 50;
